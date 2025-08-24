@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Expo App Wrapper",
+    "slug": "expo-app-wrapper",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "platforms": [
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.ticketeador.expoappwrapper",
+      "newArchEnabled": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "09d55d2e-22f2-408d-acea-35ed9c76b0a8"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
